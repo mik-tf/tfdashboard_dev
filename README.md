@@ -45,6 +45,7 @@ There are two ways to run the container. In both cases, you need to run it from 
 ### 1. With Automatic Startup (recommended)
 
 This will automatically execute the startup script which runs:
+- `yarn install`
 - `make build`
 - `make run project=playground`
 

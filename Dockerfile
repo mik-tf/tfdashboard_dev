@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
 
 # Install nvm, node, and yarn
 ENV NVM_DIR=/root/.nvm
-ENV NODE_VERSION=18
+ENV NODE_VERSION=20
 
 # Install NVM and Node.js
 RUN wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash \
